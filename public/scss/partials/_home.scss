@@ -91,6 +91,8 @@
       }
     }
 
+
+
     .list--home-applications {
       left: 5%;
       top: 43%;
@@ -98,6 +100,15 @@
       height: 40%;
       width: 40%;
       position: absolute;
+      overflow-y: auto;
+      li {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+      li:hover {
+        cursor: pointer;
+      }
     }
 
     .story--home {
